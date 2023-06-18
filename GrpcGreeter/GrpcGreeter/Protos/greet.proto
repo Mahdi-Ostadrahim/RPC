@@ -1,0 +1,84 @@
+syntax = "proto3";
+
+option csharp_namespace = "GrpcGreeter";
+
+package greet;
+
+// The greeting service definition.
+service Greeter {
+  // Sends a greeting
+  rpc SayHello (HelloRequest) returns (HelloReply);
+  rpc GetPerson (GetRequest) returns (GetReply);
+  rpc CreatePerson (CreateRequest) returns (CreateReply);
+  rpc CreateWorker (WorkerRequest) returns (WorkerReply);
+  rpc RemovePerson (RemoveRequest) returns (RemoveReply);
+  rpc StartPerson (StartRequest) returns (StartReply);
+  rpc EndPerson (EndRequest) returns (EndReply);
+  rpc AddExp (ExpRequest) returns (ExpReply);
+}
+
+// The request message containing the user's name.
+message HelloRequest {
+  string name = 1;
+}
+
+// The response message containing the greetings.
+message HelloReply {
+  string message = 1;
+}
+
+message GetRequest {
+	string nationalID = 1;
+} 
+message GetReply {
+	string message = 1;
+}
+message CreateRequest {
+	string name = 1;
+	int32 age = 2;
+	string nationalID = 3;
+	bool male = 4;
+}
+message CreateReply {
+	string message = 1;
+}
+message WorkerRequest {
+	string name = 1;
+	int32 age = 2;
+	string nationalID = 3;
+	bool male = 4;
+	string company = 5;
+	int32 experience = 6;
+	bool employed = 7;
+	int32 workerID = 8;
+}
+message WorkerReply {
+	string message = 1;
+}
+message RemoveRequest {
+	string nationalID = 1;
+}
+message RemoveReply {
+	string message = 1;
+}
+message StartRequest {
+	string nationalID = 1;
+	string company = 2;
+	int32 workerID = 3;
+}
+message StartReply {
+	string message = 1;
+}
+message EndRequest {
+	string nationalID = 1;
+}
+message EndReply {
+	string message = 1;
+}
+message ExpRequest {
+	string nationalID = 1;
+	int32 value = 2;
+}
+message ExpReply {
+	string message = 1;
+}

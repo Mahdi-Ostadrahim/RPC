@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "PxXb8plLvSDFn1a/oCA2J2586gqwTxZXEGL2/4D9faBKzD3lbBdIDs+7pA4QHs7n5vuf2g4g7Z3lHfL2sP0B9A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Ariyana\\Desktop\\Yeild\\GrpcGreeterClient\\GrpcGreeterClient\\GrpcGreeterClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ariyana\\.nuget\\packages\\google.protobuf\\3.23.3\\google.protobuf.3.23.3.nupkg.sha512",
+    "C:\\Users\\Ariyana\\.nuget\\packages\\grpc.core.api\\2.54.0\\grpc.core.api.2.54.0.nupkg.sha512",
+    "C:\\Users\\Ariyana\\.nuget\\packages\\grpc.net.client\\2.54.0\\grpc.net.client.2.54.0.nupkg.sha512",
+    "C:\\Users\\Ariyana\\.nuget\\packages\\grpc.net.common\\2.54.0\\grpc.net.common.2.54.0.nupkg.sha512",
+    "C:\\Users\\Ariyana\\.nuget\\packages\\grpc.tools\\2.54.0\\grpc.tools.2.54.0.nupkg.sha512",
+    "C:\\Users\\Ariyana\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.0.3\\microsoft.extensions.logging.abstractions.3.0.3.nupkg.sha512",
+    "C:\\Users\\Ariyana\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}
